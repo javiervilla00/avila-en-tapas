@@ -10,7 +10,14 @@ public class Tapa {
     private String totalVotes;
     private String ingredients;
 
-    public Tapa(String id, String name, String establishment, String totalPoints, String averageVotes, String participantsNumber, String totalVotes, String ingredients){
+    public Tapa(String id, String name, String establishment, String ingredients) {
+        this.id = id;
+        this.name = name;
+        this.establishment = establishment;
+        this.ingredients = ingredients;
+    }
+
+    public Tapa(String id, String name, String establishment, String totalPoints, String averageVotes, String participantsNumber, String totalVotes, String ingredients) {
         this.id = id;
         this.name = name;
         this.establishment = establishment;
@@ -84,4 +91,12 @@ public class Tapa {
     public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
+
+    @Override
+    public String toString() {
+        return "Tapa:\n" +
+                id + ", " + name + ", " + establishment + ", " + totalPoints + ", " + averageVotes + ", " + participantsNumber + ", " + totalVotes + ", " + ingredients + "\n";
+    }
+
+
 }
