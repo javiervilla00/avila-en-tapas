@@ -1,14 +1,14 @@
 ## Description de la tarea
 
-<!-- Descripción sobre lo que se pide en la tarea -->
+Realizar un programa en el que se implementen los casos de uso crear, eliminar, modificar y obtener una o todas las tapas
 
 ## ¿Cómo se ha implementado?
 
-<!-- Estructura de clases, patrones: MVVM, etc.  -->
+Utilizando la estructura de clases data, domain, presentation y realizando el esquema CRUD para los use case.
 
 ## Keywords
 
-<!-- Palabras relacionadas con los conceptos vistos -->
+Use Case
 
 ## Screenshots or Video
 
