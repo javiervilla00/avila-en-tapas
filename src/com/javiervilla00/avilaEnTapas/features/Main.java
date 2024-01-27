@@ -1,10 +1,8 @@
 package com.javiervilla00.avilaEnTapas.features;
 
-import com.javiervilla00.avilaEnTapas.features.tapas.data.TapaDataRepository;
 import com.javiervilla00.avilaEnTapas.features.tapas.domain.Tapa;
 import com.javiervilla00.avilaEnTapas.features.tapas.presentation.MainTapa;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
